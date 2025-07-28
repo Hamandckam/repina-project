@@ -43,7 +43,7 @@ while True:
             print(match_index)
 
     if cv2.waitKey(1) == EXIT_KEY:
-        break
+        print(1)
 
 #captured_image.release()
 cv2.destroyAllWindows()
